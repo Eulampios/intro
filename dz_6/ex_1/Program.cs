@@ -14,5 +14,5 @@ while (true)
     if (Convert.ToInt32(textNumber) > 0) counter++;
 }
 
-System.Console.WriteLine(counter);
+System.Console.WriteLine($"Вы ввели {counter} чис(-ел, -ла) больше 0");
 
